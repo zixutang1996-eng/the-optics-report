@@ -82,11 +82,13 @@ var PRICE=[[0,100],[100,250],[250,500],[500,1000],[1000,2500],[2500,1e9]];
 function priceLabel(i){var r=PRICE[i];if(i===0)return '< '+money(100).replace(/[.,]00(?=\D*$)/,'');if(r[1]>1e8)return money(r[0]).replace(/[.,]00(?=\D*$)/,'')+' +';return money(r[0]).replace(/[.,]00(?=\D*$)/,'')+' – '+money(r[1]).replace(/[.,]00(?=\D*$)/,'');}
 function localPop(id){try{return +(localStorage.getItem('tor_v_'+id)||0);}catch(e){return 0;}}
 function popKey(p){return (p.pop||0)+localPop(p.id);}
+var STORE_SVG='<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l1.5-5h15L21 9M3 9v11h18V9M3 9h18M9 20v-6h6v6"/></svg>';
+function storeLine(p){var n=(p.o||1)-1;return '<div class="store">'+STORE_SVG+'<span class="sn">'+esc(p.sn||'')+'</span>'+(n>0?' <span class="more">'+esc(n===1?t('more_store1'):t('more_stores',{n:n}))+'</span>':'')+'</div>';}
 function card(p){
   var b=[]; if(p.sa)b.push('<span class="badge sale">'+esc(t('sale'))+'</span>'); if(p.nw)b.push('<span class="badge new">'+esc(t('badge_new'))+'</span>'); if(p.dr)b.push('<span class="badge drop">'+esc(t('badge_drop'))+'</span>'); if(p.pk)b.push('<span class="badge">'+esc(t('badge_pick'))+'</span>');
   var im=p.t?'<div class="im"><img loading="lazy" decoding="async" src="'+ROOT+'assets/img/'+p.t+'-t.webp" alt="'+esc(p.n)+'"></div>':'<div class="im noimg">'+esc(t('no_image'))+'</div>';
   return '<a class="card" href="'+ROOT+'p/'+p.s+'/">'+(b.length?'<div class="badges">'+b.join('')+'</div>':'')+im+
-    '<div class="bd"><div class="br">'+esc(p.b)+'</div><div class="nm">'+esc(p.n)+'</div>'+
+    '<div class="bd"><div class="br">'+esc(p.b)+'</div><div class="nm">'+esc(p.n)+'</div>'+storeLine(p)+
     '<div class="meta"><span>'+esc(t('cat_'+p.c))+'</span></div>'+
     '<div class="ft"><span class="price">'+money(p.p)+'</span>'+(p.sa&&p.r>p.p?'<span class="was">'+money(p.r)+'</span>':'')+'</div>'+
     '<div class="meta"><span><i class="dot'+(p.st?'':' no')+'"></i>'+esc(t(p.st?'in_stock':'out_stock'))+'</span><span>'+esc(p.o>1?t('n_retailers',{n:p.o}):t('one_retailer'))+'</span></div></div></a>';
