@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zixutang1996-eng.github.io/the-optics-report/sitemap.txt
