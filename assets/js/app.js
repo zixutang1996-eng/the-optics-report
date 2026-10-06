@@ -4,10 +4,16 @@
 var C=window.TOR||{}, I=window.I18N, T=I.T, ROOT=C.root||'./';
 var LANGS=['zh-Hans','zh-Hant','en','fr'];
 var LOC={'zh-Hans':'zh-CN','zh-Hant':'zh-TW','en':'en-CA','fr':'fr-CA'};
+function autoLang(){
+  var a=(navigator.languages&&navigator.languages.length)?navigator.languages:[navigator.language||''];
+  for(var i=0;i<a.length;i++){var n=String(a[i]||'').toLowerCase();
+    if(/^zh-(tw|hk|mo)(?![a-z])|^zh-hant/.test(n))return 'zh-Hant'; if(/^zh/.test(n))return 'zh-Hans'; if(/^fr/.test(n))return 'fr'; if(/^en/.test(n))return 'en';}
+  return 'en';
+}
 function detect(){
   try{var s=localStorage.getItem('tor_lang');if(LANGS.indexOf(s)>=0)return s;}catch(e){}
-  var n=(navigator.languages&&navigator.languages[0]||navigator.language||'en').toLowerCase();
-  if(/^zh-(tw|hk|mo|hant)/.test(n))return 'zh-Hant'; if(/^zh/.test(n))return 'zh-Hans'; if(/^fr/.test(n))return 'fr'; return 'en';
+  var u=document.documentElement.getAttribute('data-ui'); if(LANGS.indexOf(u)>=0)return u;
+  return autoLang();
 }
 var L=detect();
 function t(k,a){var e=T[k];var s=e?(e[L]||e.en):k;if(a)for(var x in a)s=s.split('{'+x+'}').join(a[x]);return s;}
