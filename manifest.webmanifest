@@ -1,0 +1,44 @@
+{
+ "name": "The Optics Report",
+ "short_name": "Optics Report",
+ "description": "Canadian optics prices, deals and used listings",
+ "id": "./",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#18191c",
+ "theme_color": "#18191c",
+ "lang": "en",
+ "dir": "ltr",
+ "categories": [
+  "shopping",
+  "sports"
+ ],
+ "icons": [
+  {
+   "src": "assets/pwa/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "assets/pwa/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "assets/pwa/maskable-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "maskable"
+  },
+  {
+   "src": "assets/pwa/maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
