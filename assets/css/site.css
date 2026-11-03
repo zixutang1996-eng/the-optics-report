@@ -481,3 +481,11 @@ a.pg:focus-visible,.pg-go input:focus-visible,.pg-go .btn:focus-visible{outline:
   .pg-status{width:100%;text-align:center;border:0;padding:0;margin:0}
   .pg-go input,.pg-go .btn{height:48px}
 }
+/* mobile menu scroll perf fix */
+@media (max-width:960px){
+  .top{background:#18191c;backdrop-filter:none;-webkit-backdrop-filter:none;box-shadow:0 2px 0 rgba(0,0,0,.25)}
+  .nav{max-height:calc(100vh - 120px);max-height:calc(100dvh - 120px);overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;touch-action:pan-y;contain:paint;transform:translateZ(0)}
+  .dd a,.nav .nl{transition:none}
+}
+@media (hover:none){.dd a:hover{background:none}}
+@media (max-width:960px){html.navlock,html.navlock body{overflow:hidden}}

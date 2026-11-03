@@ -43,7 +43,7 @@ mkfmt();
 function chrome(){
   var sel=document.getElementById('langsel'); if(sel){sel.value=L;sel.addEventListener('change',function(){setLang(sel.value);});}
   var bg=document.getElementById('burger'), nav=document.getElementById('nav');
-  if(bg)bg.addEventListener('click',function(){var on=nav.classList.toggle('on');bg.setAttribute('aria-expanded',on);});
+  if(bg)bg.addEventListener('click',function(){var on=nav.classList.toggle('on');document.documentElement.classList.toggle('navlock',on);bg.setAttribute('aria-expanded',on);});
   document.querySelectorAll('.nav li.has>.nl').forEach(function(b){b.addEventListener('click',function(e){
     var li=b.parentNode, was=li.classList.contains('open');
     document.querySelectorAll('.nav li.open').forEach(function(x){if(x!==li)x.classList.remove('open');});

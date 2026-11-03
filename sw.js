@@ -1,7 +1,7 @@
-/* The Optics Report service worker. cf8f6f0d is replaced at build time. */
-var V='tor-cf8f6f0d',SHELL=V+'-shell',RT=V+'-rt',RT_MAX=60;
+/* The Optics Report service worker. bdf91acd is replaced at build time. */
+var V='tor-bdf91acd',SHELL=V+'-shell',RT=V+'-rt',RT_MAX=60;
 var BASE=new URL('./',self.location).pathname;
-var PRE=['./','offline.html','manifest.webmanifest','assets/css/site.css?v=cf8f6f0d','assets/js/i18n.js?v=cf8f6f0d','assets/js/app.js?v=cf8f6f0d',
+var PRE=['./','offline.html','manifest.webmanifest','assets/css/site.css?v=bdf91acd','assets/js/i18n.js?v=bdf91acd','assets/js/app.js?v=bdf91acd',
 'assets/fonts/barlow-latin-400.woff2','assets/fonts/barlow-semi-condensed-latin-600.woff2','assets/pwa/icon-192.png','assets/pwa/icon-512.png'];
 self.addEventListener('install',function(e){e.waitUntil(caches.open(SHELL).then(function(c){return Promise.all(PRE.map(function(u){return c.add(new Request(u,{cache:'reload'})).catch(function(){});}));}).then(function(){return self.skipWaiting();}));});
 self.addEventListener('activate',function(e){e.waitUntil(caches.keys().then(function(ks){return Promise.all(ks.filter(function(k){return k.indexOf('tor-')===0&&k.indexOf(V+'-')!==0;}).map(function(k){return caches.delete(k);}));}).then(function(){return self.clients.claim();}));});
