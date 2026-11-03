@@ -5,6 +5,7 @@ https://zixutang1996-eng.github.io/the-optics-report/used/
 https://zixutang1996-eng.github.io/the-optics-report/picks/
 https://zixutang1996-eng.github.io/the-optics-report/archive/
 https://zixutang1996-eng.github.io/the-optics-report/disclaimer/
+https://zixutang1996-eng.github.io/the-optics-report/install/
 https://zixutang1996-eng.github.io/the-optics-report/c/reddot/
 https://zixutang1996-eng.github.io/the-optics-report/c/holo/
 https://zixutang1996-eng.github.io/the-optics-report/c/prism/

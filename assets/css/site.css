@@ -489,3 +489,15 @@ a.pg:focus-visible,.pg-go input:focus-visible,.pg-go .btn:focus-visible{outline:
 }
 @media (hover:none){.dd a:hover{background:none}}
 @media (max-width:960px){html.navlock,html.navlock body{overflow:hidden}}
+/* install (PWA how-to) page */
+.ins ul,.ins ol{color:#d4d1ca;font-size:16px;line-height:1.8;margin:6px 0 0;padding-left:22px}
+.ins h1+p{color:#d4d1ca;font-size:16px;line-height:1.8;margin-top:10px}
+.ins-p{margin-top:18px;padding:12px 16px 14px;background:rgba(255,255,255,.025);border-left:3px solid var(--amber,#c9a54c);clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,0 100%)}
+.ins-p h2{margin:0 0 4px}
+.ins-done,.ins-1c{margin-top:14px!important;color:var(--amber2,#e0c06a)!important}
+.ins-1c .btn{margin-left:8px}
+.home-install{margin:12px 0 0;font-size:14px}
+.home-install a{color:var(--amber2,#e0c06a)}
+.home-install .icon{width:16px;height:16px;vertical-align:-3px;margin-right:6px}
+@media (min-width:900px){.home-install{display:none}}
+@media (display-mode:standalone){.home-install{display:none}}
