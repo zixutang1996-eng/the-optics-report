@@ -1,7 +1,7 @@
-/* The Optics Report service worker. c6c16ddc is replaced at build time. */
-var V='tor-c6c16ddc',SHELL=V+'-shell',RT=V+'-rt',RT_MAX=60;
+/* The Optics Report service worker. 4ac29289 is replaced at build time. */
+var V='tor-4ac29289',SHELL=V+'-shell',RT=V+'-rt',RT_MAX=60;
 var BASE=new URL('./',self.location).pathname;
-var PRE=['./','offline.html','manifest.webmanifest','assets/css/site.css?v=c6c16ddc','assets/js/i18n.js?v=c6c16ddc','assets/js/app.js?v=c6c16ddc',
+var PRE=['./','offline.html','manifest.webmanifest','assets/css/site.css?v=4ac29289','assets/js/i18n.js?v=4ac29289','assets/js/app.js?v=4ac29289',
 'assets/fonts/barlow-latin-400.woff2','assets/fonts/barlow-semi-condensed-latin-600.woff2','assets/pwa/icon-192.png','assets/pwa/icon-512.png'];
 self.addEventListener('install',function(e){e.waitUntil(caches.open(SHELL).then(function(c){return Promise.all(PRE.map(function(u){return c.add(new Request(u,{cache:'reload'})).catch(function(){});}));}).then(function(){return self.skipWaiting();}));});
 self.addEventListener('activate',function(e){e.waitUntil(caches.keys().then(function(ks){return Promise.all(ks.filter(function(k){return k.indexOf('tor-')===0&&k.indexOf(V+'-')!==0;}).map(function(k){return caches.delete(k);}));}).then(function(){return self.clients.claim();}));});
