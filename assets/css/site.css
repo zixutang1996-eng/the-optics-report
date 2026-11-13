@@ -501,3 +501,12 @@ a.pg:focus-visible,.pg-go input:focus-visible,.pg-go .btn:focus-visible{outline:
 .home-install .icon{width:16px;height:16px;vertical-align:-3px;margin-right:6px}
 @media (min-width:900px){.home-install{display:none}}
 @media (display-mode:standalone){.home-install{display:none}}
+
+/* red dot + magnifier combos: sub-category nested under its parent in the nav dropdown */
+.dd .dgrp{display:flex;flex-direction:column;min-width:0}
+.dd a.sub{padding:6px 11px 8px 34px;font-size:14px;color:var(--dim);position:relative}
+.dd a.sub:before{content:"";position:absolute;left:19px;top:4px;width:9px;height:12px;border-left:1px solid var(--line2);border-bottom:1px solid var(--line2)}
+.dd a.sub .icon{width:16px;height:16px}
+.dd a.sub:hover{color:var(--amber2)}
+.dd.wide{align-items:start}
+.dd .dgrp{grid-row:span 2}

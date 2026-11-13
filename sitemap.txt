@@ -7,6 +7,7 @@ https://zixutang1996-eng.github.io/the-optics-report/archive/
 https://zixutang1996-eng.github.io/the-optics-report/disclaimer/
 https://zixutang1996-eng.github.io/the-optics-report/install/
 https://zixutang1996-eng.github.io/the-optics-report/c/reddot/
+https://zixutang1996-eng.github.io/the-optics-report/c/rdcombo/
 https://zixutang1996-eng.github.io/the-optics-report/c/holo/
 https://zixutang1996-eng.github.io/the-optics-report/c/prism/
 https://zixutang1996-eng.github.io/the-optics-report/c/lpvo/
@@ -739,6 +740,15 @@ https://zixutang1996-eng.github.io/the-optics-report/p/warne-tactical-red-dot-sh
 https://zixutang1996-eng.github.io/the-optics-report/p/williams-gun-sight-company-williams-gun-sight-fibre-optic-light-gathering-sight-/
 https://zixutang1996-eng.github.io/the-optics-report/p/zero-tech-thrive-hd-red-dot-micro-reflex-sight-3-moa/
 https://zixutang1996-eng.github.io/the-optics-report/p/zero-tech-zerotech-optic-trace-halo-enclosed-aspherical-reflex-sight-black/
+https://zixutang1996-eng.github.io/the-optics-report/p/eotech-holographic-hybrid-sight-ii-exps2-2-weapon-sight-g33-sts-magnifier/
+https://zixutang1996-eng.github.io/the-optics-report/p/eotech-holographic-hybrid-sight-ix-exps3-dcr-weapon-sight-g45-sts-magnifier/
+https://zixutang1996-eng.github.io/the-optics-report/p/eotech-holographic-hybrid-sight-v-exps3-4-weapon-sight-g45-sts-magnifier/
+https://zixutang1996-eng.github.io/the-optics-report/p/eotech-holographic-hybrid-sight-vi-exps3-2-weapon-sight-g43-sts-magnifier/
+https://zixutang1996-eng.github.io/the-optics-report/p/sig-sauer-romeo5-2-moa-red-dot-sight-juliet3-3x-magnifier-combo/
+https://zixutang1996-eng.github.io/the-optics-report/p/sig-sauer-romeo5-gen-ii-2-moa-red-dot-juliet3-micro-3x-magnifier-combo/
+https://zixutang1996-eng.github.io/the-optics-report/p/trijicon-mro-hd-reflex-sight-1x25-68-moa-reticle-2-0-moa-red-dot-w-3x-magnifier/
+https://zixutang1996-eng.github.io/the-optics-report/p/trijicon-mro-sd-patrol-reflex-sight-1x25-2-0-moa-red-dot-full-co-witness-q-loc-m/
+https://zixutang1996-eng.github.io/the-optics-report/p/trijicon-mro-sd-reflex-sight-1x25-2-0-moa-red-dot-full-co-witness-q-loc-mount-w-/
 https://zixutang1996-eng.github.io/the-optics-report/p/browning-hiviz-competition-sight-for-shotguns/
 https://zixutang1996-eng.github.io/the-optics-report/p/eotech-512-a65/
 https://zixutang1996-eng.github.io/the-optics-report/p/eotech-518-a65/
@@ -3233,10 +3243,6 @@ https://zixutang1996-eng.github.io/the-optics-report/p/eotech-g45-5x-magnifier-w
 https://zixutang1996-eng.github.io/the-optics-report/p/eotech-g45-micro-5x-magnifier-w-fts-mount/
 https://zixutang1996-eng.github.io/the-optics-report/p/eotech-g45-micro-5x-magnifier-w-fts-mount-tan/
 https://zixutang1996-eng.github.io/the-optics-report/p/eotech-g45-sts-5x-magnifier-black/
-https://zixutang1996-eng.github.io/the-optics-report/p/eotech-holographic-hybrid-sight-ii-exps2-2-weapon-sight-g33-sts-magnifier/
-https://zixutang1996-eng.github.io/the-optics-report/p/eotech-holographic-hybrid-sight-ix-exps3-dcr-weapon-sight-g45-sts-magnifier/
-https://zixutang1996-eng.github.io/the-optics-report/p/eotech-holographic-hybrid-sight-v-exps3-4-weapon-sight-g45-sts-magnifier/
-https://zixutang1996-eng.github.io/the-optics-report/p/eotech-holographic-hybrid-sight-vi-exps3-2-weapon-sight-g43-sts-magnifier/
 https://zixutang1996-eng.github.io/the-optics-report/p/eotech-micro-3-power-magnifier-with-quick-disconnect-mount-black/
 https://zixutang1996-eng.github.io/the-optics-report/p/holosun-hm3x-3x-grossisseur/
 https://zixutang1996-eng.github.io/the-optics-report/p/holosun-hm3x-3x-red-dot-magnifier/
@@ -3257,12 +3263,7 @@ https://zixutang1996-eng.github.io/the-optics-report/p/sig-sauer-juliet3-micro-3
 https://zixutang1996-eng.github.io/the-optics-report/p/sig-sauer-juliet4-4x-magnifier-w-qd-mount/
 https://zixutang1996-eng.github.io/the-optics-report/p/sig-sauer-juliet5-micro-5x-magnifier/
 https://zixutang1996-eng.github.io/the-optics-report/p/sig-sauer-juliet6-6x-magnifier-w-qd-mount/
-https://zixutang1996-eng.github.io/the-optics-report/p/sig-sauer-romeo5-2-moa-red-dot-sight-juliet3-3x-magnifier-combo/
-https://zixutang1996-eng.github.io/the-optics-report/p/sig-sauer-romeo5-gen-ii-2-moa-red-dot-juliet3-micro-3x-magnifier-combo/
 https://zixutang1996-eng.github.io/the-optics-report/p/trijicon-mro-hd-magnifier-3x-flip-mount/
-https://zixutang1996-eng.github.io/the-optics-report/p/trijicon-mro-hd-reflex-sight-1x25-68-moa-reticle-2-0-moa-red-dot-w-3x-magnifier/
-https://zixutang1996-eng.github.io/the-optics-report/p/trijicon-mro-sd-patrol-reflex-sight-1x25-2-0-moa-red-dot-full-co-witness-q-loc-m/
-https://zixutang1996-eng.github.io/the-optics-report/p/trijicon-mro-sd-reflex-sight-1x25-2-0-moa-red-dot-full-co-witness-q-loc-mount-w-/
 https://zixutang1996-eng.github.io/the-optics-report/p/unity-tactical-fasttm-ftc-4x-magnifier/
 https://zixutang1996-eng.github.io/the-optics-report/p/unity-tactical-fast-ftc-4x-magnifier-black/
 https://zixutang1996-eng.github.io/the-optics-report/p/vortex-grossisseur-micro3x/
